@@ -1,0 +1,204 @@
+.CardList{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+background-color: antiquewhite;
+}
+
+.CardList .card-container {
+  display: inline-block;
+  width: 13.5%;
+}
+
+.CardList .pokemon-img{
+  width: 100%;
+}
+
+.pokemon-img {
+  border-radius: 8px;
+  min-height: 225px;
+  background-color: white;
+  width: 100%;
+}
+.card-container {
+  cursor: pointer;
+  position: relative;
+  margin: 5px;
+}
+
+.card-container {
+  background-color: rgb(87, 26, 26);
+  border-radius: 16px;
+  width:  240px;
+  padding: 10px;
+}
+
+.pokemon-name {
+  text-align: center;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.pokemon-description {
+  text-align: center;
+  font-size: 10px;
+  color: antiquewhite;
+}
+
+
+
+@media (min-width: 320px) {
+  .CardList .card-container {
+    display: inline-block;
+    width: 40.5%;
+  }
+  .pokemon-img {
+    border-radius: 8px;
+    min-height: 125px;
+    background-color: white;
+    width: 100%;
+  }
+
+  .CardList .pokemon-img{
+    width: 100%;
+  }
+  
+  .pokemon-name {
+    text-align: center;
+    font-size: 15px;
+    color: antiquewhite;
+  }
+  
+  .pokemon-description {
+    text-align: center;
+    font-size: 8px;
+    color: antiquewhite;
+  }
+}
+
+@media (min-width: 768px) {
+  .CardList .card-container {
+    display: inline-block;
+    width: 21.5%;
+  }
+  .pokemon-img {
+    border-radius: 8px;
+    min-height: 125px;
+    background-color: white;
+    width: 100%;
+  }
+  
+  .pokemon-name {
+    text-align: center;
+    font-size: 15px;
+    color: antiquewhite;
+  }
+  
+  .pokemon-description {
+    text-align: center;
+    font-size: 8px;
+    color: antiquewhite;
+  }
+}
+
+@media (min-width: 1024px) {
+  .CardList .card-container {
+    display: inline-block;
+    width: 15%;
+  }
+  .pokemon-img {
+    border-radius: 8px;
+    min-height: 125px;
+    background-color: white;
+    width: 100%;
+  }
+  
+  .pokemon-name {
+    text-align: center;
+    font-size: 15px;
+    color: antiquewhite;
+  }
+  
+  .pokemon-description {
+    text-align: center;
+    font-size: 8px;
+    color: antiquewhite;
+  }
+}
+
+@media (min-width: 1440px) {
+  .CardList .card-container {
+    display: inline-block;
+    width: 13.2%;
+  }
+  .pokemon-img {
+    border-radius: 8px;
+    min-height: 125px;
+    background-color: white;
+    width: 100%;
+  }
+  
+  .pokemon-name {
+    text-align: center;
+    font-size: 15px;
+    color: antiquewhite;
+  }
+  
+  .pokemon-description {
+    text-align: center;
+    font-size: 12px;
+    color: antiquewhite;
+  }
+}
+
+@media (min-width: 1440px) {
+  .CardList .card-container {
+    display: inline-block;
+    width: 13.2%;
+  }
+  .pokemon-img {
+    border-radius: 8px;
+    min-height: 125px;
+    background-color: white;
+    width: 100%;
+  }
+  
+  .pokemon-name {
+    text-align: center;
+    font-size: 15px;
+    color: antiquewhite;
+  }
+  
+  .pokemon-description {
+    text-align: center;
+    font-size: 10px;
+    color: antiquewhite;
+  }
+}
+
+
+@media (min-width: 2460px) {
+  .CardList .card-container {
+    display: inline-block;
+    width: 16.01%;
+  }
+  .pokemon-img {
+    border-radius: 8px;
+    min-height: 125px;
+    background-color: white;
+    width: 100%;
+  }
+  
+  .pokemon-name {
+    text-align: center;
+    font-size: 30px;
+    color: antiquewhite;
+  }
+  
+  .pokemon-description {
+    text-align: center;
+    font-size: 18px;
+    color: antiquewhite;
+  }
+}
