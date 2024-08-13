@@ -1,6 +1,7 @@
 import axios from "axios";
 import './page.css'
 import { Header } from "@/Components/Header/Header";
+import Link from "next/link";
 
 const PokemonPage = async ({ params }) => {
   const { name } = params;
@@ -13,7 +14,14 @@ const PokemonPage = async ({ params }) => {
 
 <div className="details-container">
  <div className="pokemon-detail-container">
+
+  <div className="btn-container">
+    <Link href="/">
+      <button className="close-btn">X</button>
+    </Link>    
+  </div>  
   
+  <div className="pokemon-card-detail">
     <div className="image-container">
           <img className="pokemon-img-details" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`} alt={pokemon.name} />
     </div>
@@ -65,6 +73,7 @@ const PokemonPage = async ({ params }) => {
           </ul>
         </div>
 
+       </div>
       </div>
     </div>
  </div> 
